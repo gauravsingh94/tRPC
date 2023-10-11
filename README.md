@@ -23,3 +23,8 @@ To get started with this project, follow these steps:
 
    ```bash
    git clone git@github.com:gauravsingh94/tRPC.git
+
+2. Installed the required packages.
+
+   ```bash
+   npm install
