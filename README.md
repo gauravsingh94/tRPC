@@ -1,4 +1,4 @@
-# tRPC Example
+# tRPC 
 
 This repository is a tRPC (TypeScript React RPC) example project where each commit represents different concepts and features of tRPC, such as procedures, queries, mutations, context, middlewares, and the client.
 
@@ -22,4 +22,4 @@ To get started with this project, follow these steps:
 1. Clone the repository to your local machine.
 
    ```bash
-   git clone https://github.com/your-username/tRPC-example.git
+   git clone git@github.com:gauravsingh94/tRPC.git
