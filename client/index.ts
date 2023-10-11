@@ -10,12 +10,6 @@ const client = createTRPCProxyClient<AppRouter>({
 });
 
 async function main() {
-  let response = await client.getData.query();
-  let response2 = await client.postUser.postUser.mutate({
-    name: "Gaurav",
-    about: "Top 1% coder.",
-  });
-
-  console.log(response2);
+  client.secretRoute.query();
 }
 main();
