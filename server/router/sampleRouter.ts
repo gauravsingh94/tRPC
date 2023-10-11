@@ -19,6 +19,7 @@ export const AppRouter = router({
   }),
   postUser:UserRouter,
   secretRoute:publicProcedure.query((req)=>{
+    console.log(req.input);
     console.log(req.ctx.user);
   })
 });
